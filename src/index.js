@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom/client";
+import App from "./Components/App";
+import "./stylesheet/index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// When you are using React v 17 you can use this.
+// ReactDOM.render(<App />, document.getElementById('app'))
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// While using React v18 use this (You can check the react version in package.json file)
+// import ReactDOM from 'react-dom/client'
+let root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);

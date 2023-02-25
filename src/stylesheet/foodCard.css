@@ -1,0 +1,42 @@
+.main-food-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.food-div {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.417);
+}
+.info-div {
+  /* border: 3px solid rgb(183, 12, 138); */
+  width: 55%;
+}
+h2 {
+  color: black;
+  text-transform: capitalize;
+}
+strong {
+  color: rgba(78, 77, 77, 0.929);
+  font-weight: 600;
+}
+p {
+  color: rgb(54, 54, 55);
+}
+figure {
+  width: 40%;
+  height: 10rem;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.food-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+}
